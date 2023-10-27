@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Epilogue:wght@500;700&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca:wght@400;700&family=Outfit:wght@400;700&family=Red+Hat+Display:wght@500;900&family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: epilogu, sans-serif;
+}
+
+body {
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+}
+
+.logo {
+    display: flex;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 21px;
+    margin-left: 41px;
+    margin-right: 40px;
+    flex-direction: row;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 61px;
+}
+
+ul li {
+    list-style-type: none;
+    display: inline-flex;
+    gap: 40px;
+    padding: 8px;
+}
+
+.nav-login-register {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.nav {
+    display: flex;
+    gap: 40px;
+}
+
+.btn-register {
+    border-radius: 14px;
+    border: 2px #686868 solid;
+}
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+    width: 540px;
+    height: 400px;
+    margin-top: 126px;
+    margin-left: 165px;
+    gap: 48px;
+}
+
+.hero-main {
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 80px;
+}
+
+.hero-second {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #686868;
+    display: flex;
+    width: 445px;
+}
+
+.main-picture {
+    display: flex;
+    width: 480px;
+    height: 600px;
+    position: absolute;
+    right: 130px;
+    top: 100px;
+}
+
+.btn-learn-more {
+    width: 163px;
+    height: 56px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.btn-register {
+    color: #686868;
+    cursor: pointer;
+    border: 1px #686868 solid;
+    padding: 13px 23px;
+    background-color: transparent;
+    border-radius: 14px;
+}
+
+.section-sponsors {
+    display: flex;
+    gap: 40px;
+    position: absolute;
+    left: 165px;
+    bottom: 40px;
+}
+
+.sponsors {
+    height: 20px;
+    gap: 20px;
+}
